@@ -1259,15 +1259,15 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 39px;
+  font-size: 32px;
 }
 h2,
 .h2 {
-  font-size: 32px;
+  font-size: 16px;
 }
 h3,
 .h3 {
-  font-size: 26px;
+  font-size: 19px;
 }
 h4,
 .h4 {
@@ -1275,11 +1275,11 @@ h4,
 }
 h5,
 .h5 {
-  font-size: 15px;
+  font-size: 11px;
 }
 h6,
 .h6 {
-  font-size: 13px;
+  font-size: 9px;
 }
 p {
   margin: 0 0 10.5px;
@@ -4576,7 +4576,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #cccccc;
 }
 .navbar-inverse {
-  background-color: #eb6864;
+  background-color: #990066;
   border-color: #e53c37;
 }
 .navbar-inverse .navbar-brand {
@@ -6859,10 +6859,10 @@ h4 {
   margin-top: 25px;
 }
 a {
-  color: #eb6864;
+  color: #111;
 }
 a:hover {
-  color: #e22620;
+  color: #c00;
 }
 #gotop {
   background-color: #eb6864;
@@ -6892,3 +6892,5 @@ blockquote {
   border-left: 5px solid #eeeeee;
   font-size: 18.75px;
 }
+body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 { font-family: Microsoft YaHei,'����' , Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif !important;}
+textarea {font-size: 9px !important;}
