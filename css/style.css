@@ -628,3 +628,4 @@ td {
 .item-otherinfo .ahtlink { float: right; margin-right:10px;}
 .item-otherinfo .ahtlink a { height: 27px; line-height: 27px; width: 125px; display: inline-block; text-align: center; font-size: 13px; border: 1px solid #ee4444; color: #ee4444; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; -ms-border-radius: 4px; border-radius: 4px;}
 .ul {margin-left: 0px;}
+.item-info {background-color: #F5F5DC; padding: 15px 10px; margin-bottom: 15px; font-size: 13px; font-family: "Microsoft YaHei"}
