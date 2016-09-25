@@ -1,167 +1,427 @@
-<!DOCTYPE HTML>
-<html>
+
+<!DOCTYPE html>
+<html data-path="/" lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="content-language" content="zh-CN">
-  
-  <title>全球最热时尚折扣商品，促销码和优惠券</title>
-  
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
- 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="fo-verify" content="86b46cb0-183c-4de9-8465-84f931deeb44">
-  
-    <meta name="description" content="全球最热时尚折扣商品，促销码和优惠券,挑选你喜欢的商品开始享受优惠！">
-    <meta name="keywords" content="时尚，优惠券, 优惠券码, 在线优惠券, 商品, 促销码, 促销代码, 折扣, 优惠码, 促销, 折扣商品, 折扣优惠, 折扣优惠券, 打折，海淘，经验">
-    <meta name="viewport" content="width=device-width">
-    <meta property="og:site_name" content="haitaoist.com">
-    <meta property="og:title" content="全球最热时尚折扣商品，促销码和优惠券">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="http://haitaoist.com/theme/top_logo.png">
-    <meta property="og:description" content="全球最热时尚折扣商品，促销码和优惠券,挑选你喜欢的商品开始享受优惠！">
-    
-    <link href="/favicon.png" rel="icon">
-  
+    <title>DealsPlus: Coupons and Promo Codes</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="DealsPlus is here to save you money. Find thousands of today's best deals, coupon codes, printable coupons, discounts at the prices you love." >
+    <meta name="keywords" content="coupon codes, deals, promo codes, printable coupons" >    <link rel="shortcut icon" sizes="57x57" href="/favicon.png?v=5" type="image/x-icon"/>
+    <link rel="icon" sizes="192x192" href="https://img.dealspluscdn.com/images/v4/icon/touch-icon-192x192.png?v=5">
+    <link href='//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, width=device-width, user-scalable=no">
+    <meta name="referrer" content="origin-when-crossorigin">
+    <link href="/css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="//d3a71m0jqzeo98.cloudfront.net/css/3643/flickity|v4-dealOrNoDeal" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript" src="//d1hsmfb7yk4dic.cloudfront.net/js/3535/v4-typeahead|v4-header|v4-flickity.pkgd.min|v4-sliders|v4-dealOrNoDeal"></script>
+    <link rel="canonical" href="https://www.upxiu.com/" >
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/upxiu" >
 
-  <!-- CSS -->
-
-
-  <link rel="stylesheet" href="/css/themes/journal.css" media="screen" type="text/css">
-  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
-  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
-  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">
-  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
-  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
-  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-  <script src="/js/jquery.js"></script>
-  <script type="text/javascript" src="/js/jia.js" charset="utf-8"></script>
-  <script src="/js/jquery.lazyload.min.js"></script>
-
-<script>
-this.preloadIm=function(){
-	var b=new Array;
-	$("li.preview").each(function(){
-		$(this).attr("path");
-	});
-	return b
-};
-this.imagePreview=function(d,c){
-	offX=25;
-	offY=25;
-	c=c==undefined?"li.preview":c;
-	$(c).hover(function(e){
-		$("body").append("<div id='preview' class='previewbox'><img id='pi' src='/img/loading.gif' alt='Now Loading' /></div>");
-		var m=$(this).attr("path");
-		$("#pi").attr("src",m);
-		var o=$("#preview").width();
-		var p=$("#preview").height();
-		var a=$(window).width()+$(window).scrollLeft();
-		var l=$(window).height()+$(window).scrollTop();
-		var n;
-		var b;
-		if((e.pageX+offX+o)>a){
-			n=e.pageX-(o+offX)+"px"
-		}else{
-			n=e.pageX+offX+"px"
-		}if((e.pageY+offY+p)>l){
-			b=l-(p+offY)+"px"
-		}else{
-			b=e.pageY+offY+"px"
-		}
-			$("#preview").css("top",b).css("left",n).fadeIn("fast")
-		},function(){
-			$("#preview").remove()
-	});
-
-	$(c).mousemove(function(e){
-		var m=$("#preview").width();
-		var n=$("#preview").height();
-		var a=$(window).width()+$(window).scrollLeft();
-		var k=$(window).height()+$(window).scrollTop();
-		var l;
-		var b;
-		if((e.pageX+offX+m)>a){
-			l=e.pageX-(m+offX)+"px"
-		}else{
-			l=e.pageX+offX+"px"
-		}if((e.pageY+offY+n)>k){
-			b=k-(n+offY)+"px"
-		}else{
-			b=e.pageY+offY+"px"
-		}
-		$("#preview").css("top",b).css("left",l)
-	})
-        var isdown= false;
-        $(c).mousedown(function(e){
-             isdown= true;
-	})
-        $(document).mouseup(function(e){
-             if(isdown){
-             $("#preview").remove()
-             }
-             isdown= false;
-	})
-        $(c).touchend(function(e){
-             $("#preview").remove()
-	})
-	
-};
-</script>
-<script type="text/javascript">
-$(function() {  
-	
-	if($('li.preview').length){
-		var img = preloadIm();
-		imagePreview(img);
-	}
-	
-})
-</script>
-  <!-- analytics -->
-  
-
-
-
+    <script type="text/javascript">
+        function detectBot() {
+            var a = Math.floor(Math.random() * 11);
+            var b = Math.floor(Math.random() * 11);
+            jQuery.post('/User/isHuman', {a: a, b: b, c: a+b});
+        }
+        detectBot();
+    </script>
 </head>
- <body>  
-  <nav id="main-nav" class="navbar navbar-inverse navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-	<span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-       <a class="navbar-brand" href="/"><tr align="center" valign="top"><td><font size="5px">尚嗅网</font><br/><font size="1px">&nbsp;&nbsp;upxiu.com</font></td></tr></a>
-      <div class="collapse navbar-collapse nav-menu">
-		<ul class="nav navbar-nav">
-		  
-		  <li>
-			<a href="/tags" title="">
-			  <i class="fa fa-archive"></i>Deals
-			</a>
-		  </li>
-		  
-		  <li>
-			<a href="/categories" title="">
-			  <i class="fa fa-tags"></i>Coupons
-			</a>
-		  </li>
-		  
-		  <li>
-			<a href="/about" title="">
-			  <i class="fa fa-user"></i>Blog
-			</a>
-		  </li>
-		  
-		</ul>
-      </div>
-    </div> <!-- container -->
-</nav>
-<div class="clearfix"></div>
 
+<body>
+<div id="header">
+    <div id="topNavigation">
+        <div id="headerContainer" class="container gridWidth">
+            <div id="searchContainer">
+                <div class="menuMask"></div>
+                <div id="couponCategoryMenu" class="menu">
+                    <div class="arrow"></div>
+                    <div class="menuWrapper">
+                         <ul class="menu-category-list coupon-category-list">
+                                    <li>
+                                        <a class="menu-category-list-link" href="/tags/6pm">
+                                            6PM Coupons
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-category-list-link" href="/tags/amazon">
+                                            Amazon Coupons
+                                        </a>
+                                    </li>
+ 									<li>
+                                        <a class="menu-category-list-link" href="/footlocker-coupons">
+                                            Foot Locker Coupons
+                                        </a>
+                                    </li>
+                         </ul>
+                         <ul class="menu-category-list coupon-category-list">
+                                    <li>
+                                        <a class="menu-category-list-link" href="/homedepot-coupons">
+                                            Home Depot Coupons
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a class="menu-category-list-link" href="/jcpenney-coupons">
+                                            JCPenney Coupons
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a class="menu-category-list-link" href="/kohls-coupons">
+                                            Kohl's Coupons
+                                        </a>
+                                    </li>
+                        </ul>
+                        <ul class="menu-category-list coupon-category-list">
+                                    <li>
+                                        <a class="menu-category-list-link" href="/walmart-coupons">
+                                            Walmart Coupons
+                                        </a>
+                                    </li>
+                                        <li>
+                                        <a class="menu-category-list-link" href="/ebay-coupons">
+                                            eBay Coupons
+                                        </a>
+                                    </li>
+                       </ul>
+                     </div>
+                </div>
+
+                <div id="dealCategoryMenu" class="menu">
+                    <div class="arrow"></div>
+                    <div class="menuWrapper">
+                        <ul class="menu-category-list deal-category-list">
+                                    <li>
+                                        <a class="menu-category-list-link" href="/Apps_deals">
+                                            Apps                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-category-list-link" href="/Automotive_deals">
+                                            Automotive                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-category-list-link" href="/Bed-and-Bath_deals">
+                                            Bed &amp; Bath                                        </a>
+                                    </li>
+                        </ul>
+                         <ul class="menu-category-list deal-category-list">
+                                    <li>
+                                        <a class="menu-category-list-link" href="/Gifts-Flowers-and-Food_deals">
+                                            Gifts &amp; Flowers                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a class="menu-category-list-link" href="/Grocery_deals">
+                                            Grocery &amp; Food                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a class="menu-category-list-link" href="/Health-and-Beauty-Supplies_deals">
+                                            Health &amp; Beauty                                        </a>
+                                    </li>
+                        </ul>
+                        <ul class="menu-category-list deal-category-list">
+                                    <li>
+                                        <a class="menu-category-list-link" href="/Office_deals">
+                                            Office &amp; School                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a class="menu-category-list-link" href="/Others_deals">
+                                            Other                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-category-list-link" href="/Women_deals">
+                                            Women                                        </a>
+                                    </li>
+                        </ul>
+                                            </div>
+                </div>
+
+                <div id="blogMenu" class="menu">
+                    <div class="arrow"></div>
+                    <div class="menuWrapper">
+                        <ul class="blog-post-menu">
+                            <!-- Loop through other blog posts here -->
+                                                        <li class="blog-post">
+                                <a href="https://www.dealsplus.com/blog/netflix-originals-and-movies-coming-in-october-2016/" class="image-preview"><img src="https://img.dealspluscdn.com/ai/220_220/dealimage/blog/original/09_2016/1474490677214.jpg?cropOrig=1" alt="Netflix Originals and Movies Coming in October 2016"></a>
+                                <div>
+                                    <a class="blog-title" href="https://www.dealsplus.com/blog/netflix-originals-and-movies-coming-in-october-2016/">Netflix Originals and Movies Coming in October 2016</a>
+                                    <p>September 20, 2016</p>
+                                </div>
+                            </li>
+                                                        <li class="blog-post">
+                                <a href="https://www.dealsplus.com/blog/win-a-the-childrens-place-500-gift-card-giveaway-from-dealsplus/" class="image-preview"><img src="https://img.dealspluscdn.com/ai/220_220/dealimage/blog/original/09_2016/1473877032301.jpg?cropOrig=1" alt="Win a The Children's Place $500 Gift Card Giveaway from DealsPlus!"></a>
+                                <div>
+                                    <a class="blog-title" href="https://www.dealsplus.com/blog/win-a-the-childrens-place-500-gift-card-giveaway-from-dealsplus/">Win a The Children's Place $500 Gift Card Giveaway from DealsPlus!</a>
+                                    <p>September 20, 2016</p>
+                                </div>
+                            </li>
+                                                    </ul>
+                        <hr>
+                        <a href="https://www.dealsplus.com/blog/" class="see-more">See more ></a>
+                    </div>
+                </div>
+
+                <div id="categoryMenu" class="menu">
+                    <div class="arrow"></div>
+
+                    <div class="smallSearchContainer">
+                        <form action="/search" id="searchBarSmall">
+                            <input type="text" id="searchSmall" class="searchInput" placeholder="Search Stores, Deals &amp; Coupons" name="keyword">
+                            <button type="submit" id="submitSearchSmall" class="icon-font-search"></button>
+                        </form>
+                        <button type="button" class="closeCategoryAccordion icon-font-close"></button>
+                    </div>
+
+
+                    <div class="aboutUsLinks">
+                        <div class="aboutUsSection">
+                            <a href="/">Home</a>
+                            <a href="/info/about">About Us</a>
+                            <a href="/info/contact">Contact</a>
+                            <a href="/info/privacy">Privacy Policy</a>
+                            <a href="/info/tos">Terms of Use</a>
+                        </div>
+                        <div class="categoryMenuSocial">
+                            <div>
+                                <a href="https://itunes.apple.com/us/app/dealspl.us-coupons/id496056416?mt=8" target="_blank" class="socialItems">
+                                    <div class="icon-font-apple"></div>
+                                </a>
+                                <a href="https://play.google.com/store/apps/details?id=coupons.android.dealspl.us&amp;hl=en" target="_blank" class="socialItems">
+                                    <div class="icon-font-social-android"></div>
+                                </a>
+                                <a href="https://twitter.com/dealsplus" target="_blank" class="socialItems">
+                                    <div class="icon-font-twitter"></div>
+                                </a>
+                                <a href="https://www.facebook.com/dealsplus" target="_blank" class="socialItems">
+                                    <div class="icon-font-facebook"></div>
+                                </a>
+                                <a href="http://www.pinterest.com/dealsplus/" data-pin-do="buttonPin" data-pin-config="above" target="_blank" class="socialItems">
+                                    <div class="icon-font-pinterest"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="mainLogo">
+                    <a href="https://www.upxiu.com/"><img src="https://img.dealspluscdn.com/images/v4/logoWhite.png" alt="DealsPlus - Coupons and Deals" width="133" height="30"></a>
+                </div>
+
+                <form action="/search" id="searchBar">
+                    <input type="text" id="search" class="searchInput" placeholder="Search Stores, Deals &amp; Coupons" name="keyword" >
+                    <button type="submit" id="submitSearch" value="" class="icon-font-search"></button>
+                </form>
+
+                <div class="feedMenu">
+                    <a href="https://www.upxiu.com/#" id="dealMenuButton">商品分类</a>
+                    <a href="https://www.upxiu.com/#" id="couponMenuButton">经验教程</a>
+                    <a href="https://www.upxiu.com/#" id="blogMenuButton">时尚资讯</a>
+                    <a href="javascript:void(0);" id="menuButtonMore">关注尚嗅</a>
+                </div>
+
+                <div class="menuIcon">
+                    <a href="javascript:void(0);" id="menuButton" class="icon-font-hamburger"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+ <body>  
+  <div id="header">
+    <div id="topNavigation">
+        <div id="headerContainer" class="container gridWidth">
+            <div id="searchContainer">
+                <div class="menuMask"></div>
+                <div id="couponCategoryMenu" class="menu">
+                    <div class="arrow"></div>
+                    <div class="menuWrapper">
+                         <ul class="menu-category-list coupon-category-list">
+                                    <li>
+                                        <a class="menu-category-list-link" href="/tags/6pm">
+                                            6PM Coupons
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-category-list-link" href="/tags/amazon">
+                                            Amazon Coupons
+                                        </a>
+                                    </li>
+ 									<li>
+                                        <a class="menu-category-list-link" href="/footlocker-coupons">
+                                            Foot Locker Coupons
+                                        </a>
+                                    </li>
+                         </ul>
+                         <ul class="menu-category-list coupon-category-list">
+                                    <li>
+                                        <a class="menu-category-list-link" href="/homedepot-coupons">
+                                            Home Depot Coupons
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a class="menu-category-list-link" href="/jcpenney-coupons">
+                                            JCPenney Coupons
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a class="menu-category-list-link" href="/kohls-coupons">
+                                            Kohl's Coupons
+                                        </a>
+                                    </li>
+                        </ul>
+                        <ul class="menu-category-list coupon-category-list">
+                                    <li>
+                                        <a class="menu-category-list-link" href="/walmart-coupons">
+                                            Walmart Coupons
+                                        </a>
+                                    </li>
+                                        <li>
+                                        <a class="menu-category-list-link" href="/ebay-coupons">
+                                            eBay Coupons
+                                        </a>
+                                    </li>
+                       </ul>
+                     </div>
+                </div>
+
+                <div id="dealCategoryMenu" class="menu">
+                    <div class="arrow"></div>
+                    <div class="menuWrapper">
+                        <ul class="menu-category-list deal-category-list">
+                                    <li>
+                                        <a class="menu-category-list-link" href="/Apps_deals">
+                                            Apps                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-category-list-link" href="/Automotive_deals">
+                                            Automotive                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-category-list-link" href="/Bed-and-Bath_deals">
+                                            Bed &amp; Bath                                        </a>
+                                    </li>
+                        </ul>
+                         <ul class="menu-category-list deal-category-list">
+                                    <li>
+                                        <a class="menu-category-list-link" href="/Gifts-Flowers-and-Food_deals">
+                                            Gifts &amp; Flowers                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a class="menu-category-list-link" href="/Grocery_deals">
+                                            Grocery &amp; Food                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a class="menu-category-list-link" href="/Health-and-Beauty-Supplies_deals">
+                                            Health &amp; Beauty                                        </a>
+                                    </li>
+                        </ul>
+                        <ul class="menu-category-list deal-category-list">
+                                    <li>
+                                        <a class="menu-category-list-link" href="/Office_deals">
+                                            Office &amp; School                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a class="menu-category-list-link" href="/Others_deals">
+                                            Other                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-category-list-link" href="/Women_deals">
+                                            Women                                        </a>
+                                    </li>
+                        </ul>
+                                            </div>
+                </div>
+
+                <div id="blogMenu" class="menu">
+                    <div class="arrow"></div>
+                    <div class="menuWrapper">
+                        <ul class="blog-post-menu">
+                            <!-- Loop through other blog posts here -->
+                                                        <li class="blog-post">
+                                <a href="https://www.dealsplus.com/blog/netflix-originals-and-movies-coming-in-october-2016/" class="image-preview"><img src="https://img.dealspluscdn.com/ai/220_220/dealimage/blog/original/09_2016/1474490677214.jpg?cropOrig=1" alt="Netflix Originals and Movies Coming in October 2016"></a>
+                                <div>
+                                    <a class="blog-title" href="https://www.dealsplus.com/blog/netflix-originals-and-movies-coming-in-october-2016/">Netflix Originals and Movies Coming in October 2016</a>
+                                    <p>September 20, 2016</p>
+                                </div>
+                            </li>
+                                                        <li class="blog-post">
+                                <a href="https://www.dealsplus.com/blog/win-a-the-childrens-place-500-gift-card-giveaway-from-dealsplus/" class="image-preview"><img src="https://img.dealspluscdn.com/ai/220_220/dealimage/blog/original/09_2016/1473877032301.jpg?cropOrig=1" alt="Win a The Children's Place $500 Gift Card Giveaway from DealsPlus!"></a>
+                                <div>
+                                    <a class="blog-title" href="https://www.dealsplus.com/blog/win-a-the-childrens-place-500-gift-card-giveaway-from-dealsplus/">Win a The Children's Place $500 Gift Card Giveaway from DealsPlus!</a>
+                                    <p>September 20, 2016</p>
+                                </div>
+                            </li>
+                                                    </ul>
+                        <hr>
+                        <a href="https://www.dealsplus.com/blog/" class="see-more">See more ></a>
+                    </div>
+                </div>
+
+                <div id="categoryMenu" class="menu">
+                    <div class="arrow"></div>
+
+                    <div class="smallSearchContainer">
+                        <form action="/search" id="searchBarSmall">
+                            <input type="text" id="searchSmall" class="searchInput" placeholder="Search Stores, Deals &amp; Coupons" name="keyword">
+                            <button type="submit" id="submitSearchSmall" class="icon-font-search"></button>
+                        </form>
+                        <button type="button" class="closeCategoryAccordion icon-font-close"></button>
+                    </div>
+
+
+                    <div class="aboutUsLinks">
+                        <div class="aboutUsSection">
+                            <a href="/">Home</a>
+                            <a href="/info/about">About Us</a>
+                            <a href="/info/contact">Contact</a>
+                            <a href="/info/privacy">Privacy Policy</a>
+                            <a href="/info/tos">Terms of Use</a>
+                        </div>
+                        <div class="categoryMenuSocial">
+                            <div>
+                                <a href="https://itunes.apple.com/us/app/dealspl.us-coupons/id496056416?mt=8" target="_blank" class="socialItems">
+                                    <div class="icon-font-apple"></div>
+                                </a>
+                                <a href="https://play.google.com/store/apps/details?id=coupons.android.dealspl.us&amp;hl=en" target="_blank" class="socialItems">
+                                    <div class="icon-font-social-android"></div>
+                                </a>
+                                <a href="https://twitter.com/dealsplus" target="_blank" class="socialItems">
+                                    <div class="icon-font-twitter"></div>
+                                </a>
+                                <a href="https://www.facebook.com/dealsplus" target="_blank" class="socialItems">
+                                    <div class="icon-font-facebook"></div>
+                                </a>
+                                <a href="http://www.pinterest.com/dealsplus/" data-pin-do="buttonPin" data-pin-config="above" target="_blank" class="socialItems">
+                                    <div class="icon-font-pinterest"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="mainLogo">
+                    <a href="https://www.dealsplus.com/"><img src="https://img.dealspluscdn.com/images/v4/logoWhite.png" alt="DealsPlus - Coupons and Deals" width="133" height="30"></a>
+                </div>
+
+                <form action="/search" id="searchBar">
+                    <input type="text" id="search" class="searchInput" placeholder="Search Stores, Deals &amp; Coupons" name="keyword" >
+                    <button type="submit" id="submitSearch" value="" class="icon-font-search"></button>
+                </form>
+
+                <div class="feedMenu">
+                    <a href="https://www.upxiu.com/#" id="dealMenuButton">商品分类</a>
+                    <a href="https://www.upxiu.com/#" id="couponMenuButton">经验教程</a>
+                    <a href="https://www.dealsplus.com/blog/" id="blogMenuButton">时尚资讯</a>
+                    <a href="javascript:void(0);" id="menuButtonMore">关注尚嗅</a>
+                </div>
+
+                <div class="menuIcon">
+                    <a href="javascript:void(0);" id="menuButton" class="icon-font-hamburger"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
   <div class="container">
   	<div class="content">
     	 
@@ -235,45 +495,45 @@ $(function() {
 		<h4 style="font-weight: bold; color: #333 ">商品分类</h4>
 		<ul class="tag_box inline list-unstyled">		
 		
-			<li><a href="/tags/保健/">保健<span>1</span></a></li>
-		
-			<li><a href="/tags/户外/">户外<span>1</span></a></li>
-		
-			<li><a href="/tags/书籍/">书籍<span>1</span></a></li>
-		
 			<li><a href="/tags/转运/">转运<span>1</span></a></li>
-		
-			<li><a href="/tags/箱包/">箱包<span>1</span></a></li>
-		
-			<li><a href="/tags/食品/">食品<span>1</span></a></li>
-		
-			<li><a href="/tags/skinstore/">skinstore<span>1</span></a></li>
-		
-			<li><a href="/tags/amazon/">amazon<span>1</span></a></li>
-		
-			<li><a href="/tags/体育/">体育<span>1</span></a></li>
-		
-			<li><a href="/tags/日用/">日用<span>1</span></a></li>
-		
-			<li><a href="/tags/c/">c<span>1</span></a></li>
-		
-			<li><a href="/tags/家居/">家居<span>1</span></a></li>
-		
-			<li><a href="/tags/服饰/">服饰<span>2</span></a></li>
-		
-			<li><a href="/tags/鞋子/">鞋子<span>1</span></a></li>
-		
-			<li><a href="/tags/d/">d<span>1</span></a></li>
-		
-			<li><a href="/tags/数码/">数码<span>1</span></a></li>
 		
 			<li><a href="/tags/配饰/">配饰<span>1</span></a></li>
 		
-			<li><a href="/tags/香水/">香水<span>1</span></a></li>
+			<li><a href="/tags/书籍/">书籍<span>1</span></a></li>
+		
+			<li><a href="/tags/体育/">体育<span>1</span></a></li>
+		
+			<li><a href="/tags/服饰/">服饰<span>2</span></a></li>
+		
+			<li><a href="/tags/保健/">保健<span>1</span></a></li>
+		
+			<li><a href="/tags/日用/">日用<span>1</span></a></li>
+		
+			<li><a href="/tags/食品/">食品<span>1</span></a></li>
+		
+			<li><a href="/tags/旅行/">旅行<span>1</span></a></li>
+		
+			<li><a href="/tags/数码/">数码<span>1</span></a></li>
+		
+			<li><a href="/tags/母婴/">母婴<span>1</span></a></li>
+		
+			<li><a href="/tags/c/">c<span>1</span></a></li>
+		
+			<li><a href="/tags/户外/">户外<span>1</span></a></li>
+		
+			<li><a href="/tags/鞋子/">鞋子<span>1</span></a></li>
+		
+			<li><a href="/tags/箱包/">箱包<span>1</span></a></li>
+		
+			<li><a href="/tags/skinstore/">skinstore<span>1</span></a></li>
 		
 			<li><a href="/tags/美妆/">美妆<span>1</span></a></li>
 		
-			<li><a href="/tags/旅行/">旅行<span>1</span></a></li>
+			<li><a href="/tags/香水/">香水<span>1</span></a></li>
+		
+			<li><a href="/tags/家居/">家居<span>1</span></a></li>
+		
+			<li><a href="/tags/amazon/">amazon<span>1</span></a></li>
 		
 		
 		   <li><a href="/tags">...<span>21</span></a></li>
@@ -292,26 +552,12 @@ $(function() {
 	</div>
   </div>
   <div class="container-narrow">
-  <footer> <p>
-   尚嗅网 &copy; 2013-2016.
-  
-       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-</p> </footer>
+  <footer> 
+ </footer>
 </div> <!-- container-narrow -->
   
 
 
   
-<a id="gotop" href="#">   
-  <span>▲</span> 
-</a>
-
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/main.js"></script>
-<script src="/js/search.js"></script> 
-
-
-
-
 </body>
    </html>
