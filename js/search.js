@@ -3,7 +3,6 @@
     var searchIco = document.getElementById('search'),
         searchWrap = document.getElementById('search-wrap'),
         keyInput = document.getElementById('key'),
-        back = document.getElementById('back'),
         searchPanel = document.getElementById('search-panel'),
         searchResult = document.getElementById('search-result'),
         searchTpl = document.getElementById('search-tpl').innerHTML,
@@ -50,6 +49,7 @@
         show: function() {
             window.innerWidth < 760 ? docEl.classList.add('lock-size') : noop;
             searchPanel.classList.add('in');
+
         },
         hide: function() {
             window.innerWidth < 760 ? docEl.classList.remove('lock-size') : noop;
@@ -117,10 +117,6 @@
         keyInput.value = '';
     });
 
-    back.addEventListener('click', function() {
-        searchWrap.classList.remove('in');
-        Control.hide();
-    });
 
     document.addEventListener('click', function(e) {
         if (e.target.id !== 'key') {
