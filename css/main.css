@@ -11737,7 +11737,10 @@ textarea.clear-input {
     background: #fff;
     border-radius: 2px;
 	border: 1px solid #c1c1c1;
-    box-shadow: inset 0 0 2px rgba(255, 255, 255, .75);
+    opacity: 0;
+    -webkit-box-shadow:0 0 10px rgba(103, 0, 153, .5);  
+	-moz-box-shadow:0 0 10px rgba(103, 0, 153, .5);  
+	box-shadow:0 0 10px rgba(103, 0, 153, .5);  
 	visibility: hidden;
     .transform(translateY(-50%) scale(.5));
     .transition(.3s, ease-in);

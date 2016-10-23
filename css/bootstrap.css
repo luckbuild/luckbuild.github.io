@@ -584,8 +584,8 @@ tbody.collapse.in {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 9px;
-    padding-bottom: 9px;
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
 }
 .navbar-form {
