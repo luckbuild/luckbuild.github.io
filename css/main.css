@@ -2,11 +2,22 @@ html {
 	background: #fff;
 }
 
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td
+body,div,dl,dt,dd,ul,ol,li,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td
 	{
 	margin: 0;
 	padding: 0;
 	font-family: "verdana", "arial", "宋体", "Microsoft Yahei"  !important;
+	line-height: 150% !important;
+}
+
+h1,h2,h3,h4,h5,h6
+	{
+	margin: 0 !important;
+	padding-bottom: 15px !important;
+	padding: 0 !important;
+	font-weight: normal !important;
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif !important;
+	line-height: 115% !important;
 }
 
 table {
@@ -90,11 +101,8 @@ strong {
 }
 
 h1 {
-	margin: 32px 0 11px;
-	padding: 0 0 12px;
-	font-size: 28px;
-	line-height: 1.1em;
-	text-shadow: 0 1px rgba(255, 255, 255, .9)
+	font-size: 26px;
+
 }
 
 h2 {
@@ -360,7 +368,9 @@ div.validation-advice ul.error {
 
 a.img {
 	display: block;
-	background-color: #fff
+	background-color: #fff;
+	width: 220px;
+	border-radius: 15px;
 }
 
 a.img:active {
@@ -551,7 +561,7 @@ a.img:hover img,a.img:active img {
 #ctx_bar {
 	position: relative;
 	min-height: 24px;
-	margin: 10px 0 15px;
+	margin: 10px 15px 0px;
 	padding: 10px 0 12px;
 	text-shadow: 0 1px rgba(255, 255, 255, .9);
 	border-bottom: 1px solid #E5E5E5
@@ -1075,7 +1085,7 @@ a.img:hover img,a.img:active img {
 }
 
 .pin a.img img,.Board a.img img {
-	max-width: 205px
+	max-width: 215px
 }
 
 .pin a.long {
@@ -11288,6 +11298,7 @@ h1#thin_logo {
 #ctx_bar .p {
 	margin: 4px 0 0;
 	padding: 0;
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif !important;
 	font-size: 1.8em;
 	line-height: 1em;
 	font-weight: 300;
@@ -11719,9 +11730,9 @@ textarea.clear-input {
 /*Search*/
 .search-panel {
     position: fixed;
-    top: 40px;
-    right: 45px;
-    width: 400px;
+    top: 17px;
+    right: 5px;
+    width: 300px;
     max-height: 70%;
     overflow-y: auto;
     background: #fff;
@@ -11730,12 +11741,12 @@ textarea.clear-input {
     box-shadow: inset 0 0 2px rgba(255, 255, 255, .75);
     .transform(translateY(-50%) scale(.5));
     .transition(.3s, ease-in);
-	z-index: 999997;
 }
 
 .search-result {
     margin: 0;
     padding: 9px;
+	padding-top: 9px;
 }
 
 .title-search {
@@ -11760,13 +11771,14 @@ a:hover{
 
 #search-wrap{
 	position: absolute;
-	right: 35px;
+	right: 55px;
 	top: 0;
 	padding-top: 6px
 	
 }
 #search-wrap input {
 	float: left;
+	padding-top: 25px;
 	font-size: 13px;
 	width: 105px;
 	height: 16px;
@@ -11817,3 +11829,7 @@ a:hover{
 	-moz-box-shadow: inset 0 1px 1px rgba(34, 29, 29, .15);
 	-webkit-box-shadow: inset 0 1px 1px rgba(34, 29, 29, .15)
 }
+
+.xbutton{display:block;width:202px; margin: 5px auto; height:52px; line-height:52px; text-align:center; font-family:arial,verdana,sans-serif, '新宋体'; font-weight:bold; font-size:22px; background:#e33c52;color:#fff; text-decoration:none; border: 0px; cursor:pointer}
+.xbutton:hover{background:#660099; color:#fff}
+.xbutton:active{background:#660099; color:#fff}
